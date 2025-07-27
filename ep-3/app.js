@@ -1,2 +1,3 @@
-const {sum,x}  = require('./sum');
-console.log(sum(5, x)); // Outputs: 15
+const {calculateMultiply,calculateSum}= require("./calculate");
+console.log(calculateSum(2,3));
+console.log(calculateMultiply(2,3));
